@@ -10,9 +10,9 @@
 		A6B45B132594F1A000885581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B45B122594F1A000885581 /* AppDelegate.swift */; };
 		A6B45B152594F1A000885581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B45B142594F1A000885581 /* SceneDelegate.swift */; };
 		A6B45B172594F1A000885581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B45B162594F1A000885581 /* ViewController.swift */; };
-		A6B45B1A2594F1A000885581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B45B182594F1A000885581 /* Main.storyboard */; };
 		A6B45B1C2594F1A200885581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B45B1B2594F1A200885581 /* Assets.xcassets */; };
 		A6B45B1F2594F1A200885581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B45B1D2594F1A200885581 /* LaunchScreen.storyboard */; };
+		A6B45B292594F1B300885581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B45B282594F1B300885581 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		A6B45B122594F1A000885581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6B45B142594F1A000885581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A6B45B162594F1A000885581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6B45B192594F1A000885581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6B45B1B2594F1A200885581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B45B1E2594F1A200885581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B45B202594F1A200885581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B45B282594F1B300885581 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				A6B45B122594F1A000885581 /* AppDelegate.swift */,
 				A6B45B142594F1A000885581 /* SceneDelegate.swift */,
+				A6B45B282594F1B300885581 /* Main.storyboard */,
 				A6B45B162594F1A000885581 /* ViewController.swift */,
-				A6B45B182594F1A000885581 /* Main.storyboard */,
 				A6B45B1B2594F1A200885581 /* Assets.xcassets */,
 				A6B45B1D2594F1A200885581 /* LaunchScreen.storyboard */,
 				A6B45B202594F1A200885581 /* Info.plist */,
@@ -124,9 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B45B292594F1B300885581 /* Main.storyboard in Resources */,
 				A6B45B1F2594F1A200885581 /* LaunchScreen.storyboard in Resources */,
 				A6B45B1C2594F1A200885581 /* Assets.xcassets in Resources */,
-				A6B45B1A2594F1A000885581 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A6B45B182594F1A000885581 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6B45B192594F1A000885581 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6B45B1D2594F1A200885581 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,12 +279,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ4YU874PU;
 				INFOPLIST_FILE = KBK2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petercathie.KBK2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patty.KBK2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +299,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ4YU874PU;
 				INFOPLIST_FILE = KBK2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petercathie.KBK2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patty.KBK2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
